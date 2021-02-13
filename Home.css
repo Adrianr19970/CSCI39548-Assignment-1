@@ -1,0 +1,200 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Exa', sans-serif;
+    background: #f9f8fd;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- NavBar css --- */
+nav {
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+    display: inline-block;
+    border: 2px solid #dfdfe2;
+    border-radius: 30px;
+    animation: slide-in 1s ease-out;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 0 45px;
+    list-style-type: none;
+}
+
+ul li:not(:last-child) {
+    margin-right: 40px;
+}
+
+ul li {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background 0.2s;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+ul li:hover {
+    background: #dc143c;
+    border: 2px solid #dc143c;
+    border-right: 2px solid #000;
+    Border-bottom: 2px solid #000;
+}
+
+ul li:hover a {
+    color: #f9f8fd;
+}
+
+@keyframes slide-in {
+    0% {
+        top: -50px;
+   }
+    40% {
+        top: 20px;
+   }
+    70% {
+        top: 15px;
+   }
+    100% {
+        top: 15px;
+   }
+}
+
+.navSpace {
+    padding: 55px;
+    border-bottom: 1px solid #ebecf1;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding: 5px;
+    animation: slide-in2 1s ease-out;
+}
+
+@keyframes slide-in2 {
+    0% {
+        top: -40px;
+   }
+    40% {
+        top: 20px;
+   }
+    70% {
+        top: 5px;
+   }
+    100% {
+        top: 1px;
+   }
+}
+
+/* -------------------- */
+
+.bg {
+    background-image: url("img/08VIRUS-FOODBANKS-masbia-mobileMasterAt3x.jpg");
+
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;   
+    border: 2px solid #dfdfe2;
+    border-radius: 30px;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 150px;
+    color: #dc143c;
+}
+
+.text p {
+    margin-left: 150px;
+}
+
+.learnMore{
+    float: right;
+    border: 2px solid #dfdfe2;
+    border-radius: 5px;
+    margin-right: 200px;
+    text-transform: uppercase;
+}
+
+.learnMore:hover {
+    background: #dc143c;
+    border: 2px solid #dc143c;
+    border-right: 2px solid #000;
+    Border-bottom: 2px solid #000;
+}
+
+.learnMore:hover h3 {
+    color: #f9f8fd;
+}
+
+.text2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    height: 500px;
+    background-color: #60773e;
+    font-size:36px
+}
+
+.text2 h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 150px;
+    color: #f9f8fd;
+}
+
+.bg2 {
+    background-image: url("img/Basically-Apples.jpg");
+
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    height:200px;
+    background-color: #60773e;
+    font-size:36px
+}
+
+.text3 h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 150px;
+    color: #f9f8fd;
+}
