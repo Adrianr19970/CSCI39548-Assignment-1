@@ -76,7 +76,7 @@ ul li:hover a {
 
 .navSpace {
     padding: 55px;
-    border-bottom: 1px solid #ebecf1;
+    border-bottom: 1px solid #1a1a1a;
 }
 
 .logo {
@@ -113,7 +113,11 @@ ul li:hover a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
 }
+
 
 .text {
     margin: 5px;
@@ -123,6 +127,7 @@ ul li:hover a {
     padding-right: 250px;   
     border: 2px solid #dfdfe2;
     border-radius: 30px;
+
 }
 
 .text h1 {
@@ -162,7 +167,10 @@ ul li:hover a {
     padding-right: 250px;
     height: 500px;
     background-color: #60773e;
-    font-size:36px
+    font-size:36px;
+
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
 }
 
 .text2 h2 {
@@ -172,14 +180,47 @@ ul li:hover a {
     color: #f9f8fd;
 }
 
+.media {
+    margin: 5px;
+    padding: 45px;
+    background: #f9f8fd;
+    border: 2px solid #dfdfe2;
+    border-radius: 30px;
+}
+
+.media iframe {
+    margin-left: 215px;
+    width: 33%;
+}
+
+.description {
+    float: right;
+    margin-right: 215px;
+    width: 33%;
+    padding-top: 50px;
+}
+
+.description h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #dc143c;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+
 .bg2 {
     background-image: url("img/Basically-Apples.jpg");
-
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
 }
 
 .text3 {
@@ -189,7 +230,9 @@ ul li:hover a {
     padding-right: 250px;
     height:200px;
     background-color: #60773e;
-    font-size:36px
+    font-size:36px;
+
+    border-bottom: 1px solid #1a1a1a;
 }
 
 .text3 h2 {
@@ -198,3 +241,5 @@ ul li:hover a {
     margin-left: 150px;
     color: #f9f8fd;
 }
+
+
