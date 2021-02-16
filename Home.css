@@ -177,7 +177,6 @@ ul li:hover a {
     height: 450px;
     background-color: #60773e;
     font-size:36px;
-
     border-top: 1px solid #1a1a1a;
     border-bottom: 1px solid #1a1a1a;
 }
@@ -210,12 +209,12 @@ ul li:hover a {
     margin-left: 20px;
     height:400px;
     width:600px;
-    border: 1px solid #1a1a1a;
 }
 
 .gmap iframe {
     position: absolute;
     width: 33%;
+    border: 1px solid #1a1a1a;
 }
 
 /* ----------------- */
@@ -273,11 +272,9 @@ ul li:hover a {
 .bg2 h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     color: #f9f8fd;
     background-color: #60773e;
-    margin-left: 750px;
-    margin-right: 700px;
     padding: 10px;
     border: 1px solid #f9f8fd;
 }
@@ -287,7 +284,7 @@ ul li:hover a {
     padding: 0px 15px 0 15px;
     width: 30%;
     background-color: #fff;
-    margin-left: 250px;
+    margin-left: 235px;
     border: 1px solid #1a1a1a;
     border-radius: 30px;
     height: 250px;
@@ -298,8 +295,6 @@ ul li:hover a {
     color: #dc143c;
     text-align: center;
     text-transform: uppercase;
-    border: 1px solid #1a1a1a;
-    border-radius: 30px;
     padding: 5px;
 }
 
@@ -307,6 +302,10 @@ ul li:hover a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.row img {
+    object-fit: contain;
 }
 
 .left, .right {
@@ -332,7 +331,7 @@ ul li:hover a {
     padding-bottom: 20px;
     padding-left: 250px;
     padding-right: 250px;
-    height:200px;
+    height:275px;
     background-color: #60773e;
     font-size:36px;
     border-top: 1px solid #1a1a1a;
@@ -341,14 +340,57 @@ ul li:hover a {
 
 .text3 h2 {
     text-transform: uppercase;
-    font-size: 40px;
-    margin-left: 150px;
+    font-size: 2vw;
+    text-align: center;
     color: #f9f8fd;
 }
+
+.text3 p {
+    font-size: 1.1vw;
+    text-align: center;
+    color: #f9f8fd;
+}
+
+input[type=submit] {
+    width: 15%;
+    text-transform: uppercase;
+    border: 2px solid #dfdfe2;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background: #dc143c;
+    border: 2px solid #dc143c;
+    border-right: 2px solid #000;
+    Border-bottom: 2px solid #000;
+}
+
+input[value=Subscribe]:hover {
+    color: #f9f8fd;
+}
+
+input[type=text] {
+    width: 80%;
+}
+
+input[type=text], input[type=submit] {
+    padding: 5px;
+    padding: 12px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
 
 /* --------------------- */
 
 .line {
+    background: #f9f8fd;
+    width: 100%;
+    margin: 5px;
+}
+
+.line2 {
     background: #f9f8fd;
     width: 100%;
     margin: 5px;
