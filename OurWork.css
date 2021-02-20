@@ -10,6 +10,37 @@ body {
     padding: 0;
 }
 
+#mainText{
+	margin: 20px;
+	float: left;
+	width: 55%;
+	padding:20px;
+}
+
+.middleDiv{
+	height:638.5px;
+	padding-right:10px;
+}
+.imageBox{
+	padding: 20px;
+	float:left;
+	width:460px;
+	background-color:#60773e;
+}
+#workImage{
+	margin-right:auto;
+	mnargin-left:auto;
+}
+.workFooter{
+	clear:both;
+	background-color:#60773e;
+	margin:20px;
+	margin-top: 150px;
+	padding: 20px;
+}
+
+
+
 /* --- NavBar css --- */
 nav {
     position: absolute;
