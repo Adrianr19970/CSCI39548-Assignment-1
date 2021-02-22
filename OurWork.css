@@ -10,65 +10,6 @@ body {
     padding: 0;
 }
 
-#mainText{
-	margin: 20px;
-	float: left;
-	width: 35%;
-	padding:20px;
-	background-color: #60773e;
-	height: 555px;
-	color: #f9f8fd;
-}
-
-.middleDiv{
-	height:638.5px;
-	padding-right:10px;
-	margin:50px;
-	background-color:#d19e11;
-}
-.imageBox{
-	padding: 20px;
-	float:left;
-	width:460px;
-	
-}
-#workImage{
-	margin-right:auto;
-	mnargin-left:auto;
-}
-.workFooter{
-	clear:both;
-	background-color:#60773e;
-	margin:20px;
-	margin-top: 150px;
-	padding: 20px;
-}
-.video{
-	float:left;
-	width:35%
-}
-.videoBox{
-	margin:50px;
-	clear:both;
-	height:279px;
-	padding: 20px;
-	border: 1px solid;
-	border-radius: 5px;
-}
-.videoText{
-	float:left;
-	width: 35%
-}
-.FoodToday{
-	color:#d19e11;
-	float:left;
-}
-.SecurityTomorrow{
-	color: #60773e;
-}
-
-
-
 /* --- NavBar css --- */
 nav {
     position: absolute;
@@ -162,4 +103,87 @@ ul li:hover a {
    }
 }
 
-/* -------------------- */
+/*---OurWork Body---*/
+
+
+/*---middleDiv---*/
+.middleDiv{
+	height:638.5px;
+	padding-right:10px;
+	margin:50px;
+	background-color:#d19e11;
+	border: 1px solid;
+   
+}
+#mainText{
+	margin: 20px;
+	float: left;
+	width: 35%;
+	padding:20px;
+	background-color: #60773e;
+	height: 555px;
+	color: #f9f8fd;
+}
+
+.imageBox{
+	padding: 20px;
+	float:left;
+	width:460px;
+	
+}
+#workImage{
+	margin-right:auto;
+	mnargin-left:auto;
+}
+
+
+/*---videoBox---*/
+.videoBox{
+	margin:50px;
+	clear:both;
+	height:400px;
+	padding: 20px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+.video{
+	float:left;
+	width:35%
+}
+.videIframe{
+	width:100%;
+	height:100%;
+}
+
+.videoText{
+	float:left;
+	width: 35%;
+	margin:50px;
+	margin-left: 200px;
+}
+.FoodToday{
+	color:#d19e11;
+	float:left;
+}
+.SecurityTomorrow{
+	color: #60773e;
+}
+
+/*---workFooter---*/
+.workFooter{
+	clear:both;
+	background-color:#60773e;
+	margin:50px;
+	margin-top: 150px;
+	padding: 20px;
+	border: 1px solid;
+}
+.footerText{
+	font-size:100px;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.footerLink{
+	color:inherit;
+}
