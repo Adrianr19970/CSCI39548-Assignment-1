@@ -13,19 +13,24 @@ body {
 #mainText{
 	margin: 20px;
 	float: left;
-	width: 55%;
+	width: 35%;
 	padding:20px;
+	background-color: #60773e;
+	height: 555px;
+	color: #f9f8fd;
 }
 
 .middleDiv{
 	height:638.5px;
 	padding-right:10px;
+	margin:50px;
+	background-color:#d19e11;
 }
 .imageBox{
 	padding: 20px;
 	float:left;
 	width:460px;
-	background-color:#60773e;
+	
 }
 #workImage{
 	margin-right:auto;
@@ -37,6 +42,29 @@ body {
 	margin:20px;
 	margin-top: 150px;
 	padding: 20px;
+}
+.video{
+	float:left;
+	width:35%
+}
+.videoBox{
+	margin:50px;
+	clear:both;
+	height:279px;
+	padding: 20px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+.videoText{
+	float:left;
+	width: 35%
+}
+.FoodToday{
+	color:#d19e11;
+	float:left;
+}
+.SecurityTomorrow{
+	color: #60773e;
 }
 
 
