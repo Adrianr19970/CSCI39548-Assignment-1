@@ -1,0 +1,106 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Exa', sans-serif;
+    background: #f9f8fd;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- NavBar css --- */
+nav {
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+    display: inline-block;
+    border: 2px solid #dfdfe2;
+    border-radius: 30px;
+    animation: slide-in 1s ease-out;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 0 45px;
+    list-style-type: none;
+}
+
+ul li:not(:last-child) {
+    margin-right: 40px;
+}
+
+ul li {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background 0.2s;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+ul li:hover {
+    background: #dc143c;
+    border: 2px solid #dc143c;
+    border-right: 2px solid #000;
+    Border-bottom: 2px solid #000;
+}
+
+ul li:hover a {
+    color: #f9f8fd;
+}
+
+@keyframes slide-in {
+    0% {
+        top: -50px;
+   }
+    40% {
+        top: 20px;
+   }
+    70% {
+        top: 15px;
+   }
+    100% {
+        top: 15px;
+   }
+}
+
+.navSpace {
+    padding: 55px;
+    border-bottom: 1px solid #ebecf1;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding: 5px;
+    animation: slide-in2 1s ease-out;
+}
+
+@keyframes slide-in2 {
+    0% {
+        top: -40px;
+   }
+    40% {
+        top: 20px;
+   }
+    70% {
+        top: 5px;
+   }
+    100% {
+        top: 1px;
+   }
+}
+
+/* -------------------- */
