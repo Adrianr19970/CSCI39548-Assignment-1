@@ -49,8 +49,8 @@ ul li a {
 }
 
 ul li:hover {
-    background: #dc143c;
-    border: 2px solid #dc143c;
+    background: #FC953C;
+    border: 2px solid #FC953C;
     border-right: 2px solid #000;
     Border-bottom: 2px solid #000;
 }
@@ -108,13 +108,11 @@ ul li:hover a {
 /* --- Background --- */
 .bg {
     background-image: url("img/08VIRUS-FOODBANKS-masbia-mobileMasterAt3x.jpg");
-
     min-height: 550px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     border-top: 1px solid #1a1a1a;
     border-bottom: 1px solid #1a1a1a;
 }
@@ -130,33 +128,37 @@ ul li:hover a {
     padding-right: 250px;   
     border: 2px solid #dfdfe2;
     border-radius: 30px;
-
+    height: 200px;
 }
 
 .text h1 {
     text-transform: uppercase;
-    font-size: 2vw;
-    margin-left: 100px;
-    color: #dc143c;
+    font-size: 2.1vw;
+    margin-left: 20px;
+    color: #FC953C;
 }
 
 .text p {
-    margin-left: 100px;
-    font-size: 1.1vw;
+    margin-left: 20px;
+    font-size: 1.3vw;
 }
 
 .learnMore{
-    float: right;
+    float: left;
     border: 2px solid #dfdfe2;
+    margin-left: 20px;
     border-radius: 5px;
-    margin-right: 200px;
     text-transform: uppercase;
     position: relative;
 }
 
+.learnMore h3 {
+    font-size: 1.1vw;
+}
+
 .learnMore:hover {
-    background: #dc143c;
-    border: 2px solid #dc143c;
+    background: #FC953C;
+    border: 2px solid #FC953C;
     border-right: 2px solid #000;
     Border-bottom: 2px solid #000;
 }
@@ -170,159 +172,107 @@ ul li:hover a {
 /* --- text box2 --- */
 
 .text2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 250px;
-    padding-right: 250px;
-    height: 450px;
+    padding: 20px;
+    height: 250px;
     background-color: #60773e;
     font-size:36px;
     border-top: 1px solid #1a1a1a;
     border-bottom: 1px solid #1a1a1a;
-}
-
-/* ----------------- */
-
-/* --- Map --- */
-
-.mapDescrip {
-    float: left;
-    width: 40%;
-    padding-top: 20px;
-}
-
-.mapDescrip h2 {
-    text-transform: uppercase;
-    font-size: 2vw;
-    color: #f9f8fd;
-}
-
-.mapDescrip p {
-    font-size: 1.1vw;
-    float: left;
-    color: #f9f8fd;
-}
-
-.gmap {
-    float: right;
-    margin-top: 20px;
-    margin-left: 20px;
-    height:400px;
-    width:600px;
-}
-
-.gmap iframe {
-    position: absolute;
-    width: 33%;
-    border: 1px solid #1a1a1a;
-}
-
-/* ----------------- */
-
-/* --- Video --- */
-
-.media {
-    margin: 5px;
-    padding: 45px;
-    background: #f9f8fd;
     border: 2px solid #dfdfe2;
     border-radius: 30px;
 }
 
-.media iframe {
-    margin-left: 195px;
-    width: 33%;
-    border: 1px solid #1a1a1a;
-}
-
-.description {
-    float: right;
-    margin-right: 195px;
-    width: 33%;
-    padding-top: 10px;
-    
-}
-
-.description h2 {
+.text2 h2 {
     text-transform: uppercase;
-    font-size: 2vw;
-    color: #dc143c;
+    font-size: 2.3vw;
+    color: #f9f8fd;
+    text-align: center;
 }
 
-.description p {
-    font-size: 1.1vw;
-    color: #dc143c;
+.text2 p {
+    font-size: 1.5vw;
+    color: #f9f8fd;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 /* ---------------- */
 
-/* ---Background2--- */
+/* ---Map ---*/
 
-.bg2 {
+.map {
+    height: 500px;
+    padding: 5px;
+    border: 2px solid  #1a1a1a;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.gmap {
+    float: left;
+    padding: 70px;
+    height: 400px;
+    width: 600px;
+    overflow: auto;
+}
+
+.gmap iframe {
+    position: absolute;
+    width: 90%;
+    border: 1px solid #1a1a1a;
+    overflow: auto;
+}
+
+/* ----------------- */
+
+/* --- Video Description */
+
+.description {
+    padding: 20px;
+    height: 250px;
+    background-color: #60773e;
+    font-size:36px;
+    border: 2px solid #1a1a1a;
+    border-radius: 30px;
+}
+
+.description h2 {
+    color: #FC953C;
+    text-transform: uppercase;
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+.description p {
+    color: #FC953C;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* ------------------ */
+
+/* --- Video --- */
+
+.media {
     background-image: url("img/Basically-Apples.jpg");
-    min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 1px solid #1a1a1a;
-    border-bottom: 1px solid #1a1a1a;
+    padding: 45px;
+    height: 450px;
 }
 
-.bg2 h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.4vw;
-    color: #f9f8fd;
-    background-color: #60773e;
-    padding: 10px;
-    border: 1px solid #f9f8fd;
-}
-
-.column {
-    float: left;
-    padding: 0px 15px 0 15px;
-    width: 30%;
-    background-color: #fff;
-    margin-left: 235px;
+.media iframe {
+    margin-left: 195px;
     border: 1px solid #1a1a1a;
-    border-radius: 30px;
-    height: 250px;
+    width: 75%;
 }
 
-.column h3 {
-    font-size: 1.2vw;
-    color: #dc143c;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 5px;
-}
-
-.column img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.row img {
-    object-fit: contain;
-}
-
-.left, .right {
-    width: 15%;
-}
-
-.middle {
-    width: 15%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* --------------------- */
+/* ---------------- */
 
 /* ---Text Box3--- */
 
@@ -359,8 +309,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background: #dc143c;
-    border: 2px solid #dc143c;
+    background: #FC953C;
+    border: 2px solid #FC953C;
     border-right: 2px solid #000;
     Border-bottom: 2px solid #000;
 }
