@@ -113,5 +113,7 @@ ul li:hover a {
     height: 350px;
     width: 550px;
     border: 1px solid gray;
+    background-color: #4C6D28;
+    color: white;
 
 }
