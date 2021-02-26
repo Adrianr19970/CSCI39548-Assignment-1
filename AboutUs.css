@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Lexend Exa', sans-serif;
-    background: #f9f8fd;
+    background-color: #4C6D28;
     margin: 0;
     padding: 0;
 }
@@ -104,3 +104,17 @@ ul li:hover a {
 }
 
 /* -------------------- */
+
+.Sections{
+    padding-left: 30px; 
+    padding-right:30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 350px;
+    width: 450px;
+    margin: 10px;
+    background-color: #4C6D28;
+    color: white;
+    float: left;
+
+}
